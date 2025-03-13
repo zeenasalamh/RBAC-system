@@ -29,6 +29,7 @@ Route::post('/login', function (Request $request) {
     return response()->json(['error' => 'Invalid credentials'], 401);
 })->name('login');
 
+// Route::middleware(['auth:sanctum'])->group(function () {
 // Permissions
 Route::apiResource('permissions', PermissionController::class);
 
