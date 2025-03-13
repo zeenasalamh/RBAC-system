@@ -15,7 +15,7 @@ A RESTful API system for dynamic role-based access control with record-level per
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/rbac-system.git
+git clone https://github.com/zeenasalamh/rbac-system.git
 cd rbac-system
 
 # Install dependencies
